@@ -1,3 +1,13 @@
+@import "./responsive-mixins";
+
 .font__medv{
     font-family: 'MedievalSharp', cursive;
+
+    @include tablet {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    @include movil {
+        font-family: fantasy;
+    }
 }
