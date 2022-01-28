@@ -39,6 +39,28 @@
   width: 100%;
 }
 
+@media screen and (max-width: 425px) {
+  .footer {
+    width: 95%;
+  }
+}
+
+.buho {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .buho {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buho {
+    width: 50%;
+  }
+}
+
 .font__medv {
   font-family: 'MedievalSharp', cursive;
 }
